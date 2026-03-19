@@ -1,0 +1,30 @@
+--- Einführung ---
+Holt die Auswertung "MGL - Mgmt.kontakte Firmenmitg. für GV / Magazin" mit ID "309" von Sewobe 
+und manipuliert sie um den wichtigsten Kontakt pro Firma (gruppiert nach Nr.) rauszuholen.
+
+Die Prio ist wie folgt:
+1. Hauptkontakt
+2. CIO
+3. CEO
+4. HR-Manager
+5. [Zentrale]
+
+FALLS es keinen der obengenannten Funktionen gibt, dann wird ein zufälliger Kontakt der Firma ausgewählt 
+und in der Spalte "Hinweis" der Outputdatei mit einem Text versehen.
+
+
+--- Anleitung ---
+Einfach "gv_anschreiben.exe" ausführen lassen, damit eine Excel Datei namens "GV Schreiben.xlsx" generiert wird.
+
+
+--- Hinweise --
+Funktioniert nicht mehr, falls
+- Die oben genannte Auswertung nicht mehr existiert oder zu sehr geändert wurde
+- API Zugang zu Sewobe geändert wurde
+- kein Internet
+
+
+--- Code & Github ---
+Der Code kann auf dem swissICT Github gefunden werden
+Die .exe Datei ist unter dist/*.exe zu finden.
+Bei Änderungen vom Code, im Terminal "pyinstaller --onefile --windowed gv_anschreiben.py" wieder laufen lassen
