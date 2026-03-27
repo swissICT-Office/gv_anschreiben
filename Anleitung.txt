@@ -2,6 +2,8 @@
 Holt die Auswertung "MGL - Mgmt.kontakte Firmenmitg. für GV / Magazin" mit ID "309" von Sewobe 
 und manipuliert sie um den wichtigsten Kontakt pro Firma (gruppiert nach Nr.) rauszuholen.
 
+NOTE: Dieses Programm kann auch benutzt werden, um einfach so den wichtigsten Kontakt pro Firma zu holen.
+
 Die Prio ist wie folgt:
 1. Hauptkontakt
 2. CIO
